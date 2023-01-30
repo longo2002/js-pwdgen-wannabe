@@ -1,0 +1,15 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-generator{
+    height: 25vh;
+    width: 35vh;
+    box-shadow: 10px 10px lightblue;
+    background-color: rgb(180, 179, 179);
+    border-radius: 15px;
+}
+
