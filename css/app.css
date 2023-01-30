@@ -1,3 +1,12 @@
+html{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
 body{
     height: 100vh;
     display: flex;
@@ -13,3 +22,32 @@ body{
     border-radius: 15px;
 }
 
+.pw-container{
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pw{
+    border-radius: 5px;
+    background-color: rgb(213, 211, 213); 
+    padding: 10px 100px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.button{
+    color: white;
+    background-color: rgb(218, 111, 218); 
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
